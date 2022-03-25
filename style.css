@@ -17,6 +17,18 @@ a
 {
     text-decoration: none;
     color: gainsboro;
+     padding:20px;
+}
+
+a:hover
+{
+    color:darkkhaki;
+    background-color:lightseagreen;
+}
+
+a:visited
+{
+    color:bisque;
 }
 
 header
