@@ -2,12 +2,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   list-style-type: none; }
 
-.flex, .classroom, .playground, .soccer-field, .pool, .map, .data {
+.flex, .classroom, .playground, .soccer-field, .pool, .laboratory, .computer-lab, .map, .data {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column; }
 
@@ -27,12 +28,12 @@ a:visited {
   color: bisque; }
 
 header {
-  background-color: #a1d5d5;
+  background-color: #66cdaa;
   display: flex;
   justify-content: space-between; }
 
 body {
-  background-color: #a1d5d5; }
+  background-color: #66cdaa; }
 
 nav ul {
   background-color: darkcyan;
@@ -62,7 +63,8 @@ img {
   display: flex;
   flex-direction: row; }
 
-h2, h1 {
+h2,
+h1 {
   padding: 20px; }
 
 .map {
@@ -74,8 +76,8 @@ h2, h1 {
 .gallery {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-template-areas: "classroom playground" "soccer-field pool"; }
+  grid-template-rows: 33% 33% 33%;
+  grid-template-areas: "classroom playground" "soccer-field pool" "laboratory computer-lab"; }
 
 .classroom {
   grid-area: classroom; }
@@ -88,6 +90,12 @@ h2, h1 {
 
 .pool {
   grid-area: pool; }
+
+.laboratory {
+  grid-area: laboratory; }
+
+.computer-lab {
+  grid-area: computer-lab; }
 
 .contact {
   display: grid;
