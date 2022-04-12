@@ -27,12 +27,12 @@ a:visited {
   color: bisque; }
 
 header {
-  background-color: #00ffff;
+  background-color: #a1d5d5;
   display: flex;
   justify-content: space-between; }
 
 body {
-  background-color: #00ffff; }
+  background-color: #a1d5d5; }
 
 nav ul {
   background-color: darkcyan;
