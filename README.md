@@ -1,2 +1,2 @@
 # website-bootstrap
-Website using Bootstrap and Sassand Sass
+Website using Bootstrap and SASS
